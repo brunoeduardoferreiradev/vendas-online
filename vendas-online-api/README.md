@@ -98,6 +98,9 @@ $ npm i -D @types/bcrypt
 # Config ( Pacote de configuração do Nest )
 $ npm i --save @nestjs/config
 
+# Instalando o TypeORM para postgres
+$ npm install --save typeorm pg @nestjs/typeorm
+
 ```
 
 
