@@ -71,3 +71,58 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+# Back End
+
+
+
+## Bibliotecas Utilizadas
+```bash
+# BCrypt
+$ npm i bcrypt
+$ npm i -D @types/bcrypt
+
+# Config ( Pacote de configuração do Nest )
+$ npm i --save @nestjs/config
+
+```
+
+
+## Criando Ambiente do Docker para Banco de Dados PostgreSQL
+
+```bash
+# Baixa a imagem do docker para postgres
+$ docker pull postgres
+
+# Criando uma instancia com a imagem baixada
+# some-postgres = Nome da Instancia
+# POSTGRES_PASSWORD = Senha do postgres
+# 5432:5432 = porta que sera usada para comunicação com o Banco Postgres
+# postgres = Nome da Imagem
+$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+
+```
+
+
+
+
+## Links Úteis
+
+* [Documentação do NEST.JS](https://docs.nestjs.com/cli/overview)
+* [Utilizando o BCrypt com NEST.JS](https://docs.nestjs.com/security/encryption-and-hashing#hashing)
+* [Docker HUB - Imagem oficial PostGres](https://hub.docker.com/_/postgres)
+* [PGAdmin - IDE para gerenciamento de dados do Postgres](https://www.pgadmin.org/)
+
