@@ -119,6 +119,17 @@ $ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:
 
 ```
 
+## Criando as migrations
+
+```bash
+# criando a migration
+$ npx typeorm migration:create ./src/migration/create_table_user
+$ npx typeorm migration:create ./src/migration/create_table_state
+$ npx typeorm migration:create ./src/migration/create_table_city
+$ npx typeorm migration:create ./src/migration/create_table_address
+
+# 
+$ 
 
 
 
