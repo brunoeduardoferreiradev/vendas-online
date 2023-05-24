@@ -102,9 +102,15 @@ $ npm i --save @nestjs/config
 $ npm install --save typeorm pg @nestjs/typeorm
 
 ```
-
-
-## Criando Ambiente do Docker para Banco de Dados PostgreSQL
+## Criando Módulos do Nest
+```bash
+# Criando módulos
+$ nest g module user
+$ nest g module state
+$ nest g module city
+$ nest g module address
+$ nest g module  
+```
 
 ```bash
 # Baixa a imagem do docker para postgres
