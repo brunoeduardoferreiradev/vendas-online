@@ -101,6 +101,9 @@ $ npm i --save @nestjs/config
 # Instalando o TypeORM para postgres
 $ npm install --save typeorm pg @nestjs/typeorm
 
+# Instalando Cache Manager
+$ npm install @nestjs/cache-manager cache-manager
+
 ```
 ## Criando Módulos
 ```bash
