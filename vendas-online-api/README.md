@@ -131,7 +131,7 @@ $ nest g service city
 $ nest g service address
 $ nest g service  
 ```
-
+## Banco de Dados no Docker ( PostGres )
 
 ```bash
 # Baixa a imagem do docker para postgres
@@ -163,6 +163,7 @@ $ npx typeorm migration:create ./src/migration/insert-in-city
 
 * [Documentação do NEST.JS](https://docs.nestjs.com/cli/overview)
 * [Utilizando o BCrypt com NEST.JS](https://docs.nestjs.com/security/encryption-and-hashing#hashing)
+* [Caching com NestJS](https://docs.nestjs.com/techniques/caching)
 * [Docker HUB - Imagem oficial PostGres](https://hub.docker.com/_/postgres)
 * [PGAdmin - IDE para gerenciamento de dados do Postgres](https://www.pgadmin.org/)
 
