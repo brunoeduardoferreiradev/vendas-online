@@ -112,7 +112,8 @@ $ nest g module user
 $ nest g module state
 $ nest g module city
 $ nest g module address
-$ nest g module  
+$ nest g module cache 
+$ nest g module 
 ```
 
 ## Criando Controllers
@@ -132,7 +133,8 @@ $ nest g service user
 $ nest g service state
 $ nest g service city
 $ nest g service address
-$ nest g service  
+$ nest g service cache 
+$ nest g service 
 ```
 ## Banco de Dados no Docker ( PostGres )
 
