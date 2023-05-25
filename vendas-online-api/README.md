@@ -157,14 +157,7 @@ $ npx typeorm migration:create ./src/migration/create_table_address
 $ npx typeorm migration:create ./src/migration/alter-table-state
 $ npx typeorm migration:create ./src/migration/insert-in-state
 $ npx typeorm migration:create ./src/migration/insert-in-city
-$ 
-$ 
-$ 
-
-# 
-$ 
-
-
+```
 
 ## Links Úteis
 
