@@ -104,6 +104,8 @@ $ npm install --save typeorm pg @nestjs/typeorm
 # Instalando Cache Manager
 $ npm install @nestjs/cache-manager cache-manager
 
+# Instalando o Class Validator
+$ npm i --save class-validator class-transformer
 ```
 ## Criando Módulos
 ```bash
@@ -171,4 +173,5 @@ $ npx typeorm migration:create ./src/migration/insert-in-city
 * [Caching com NestJS](https://docs.nestjs.com/techniques/caching)
 * [Docker HUB - Imagem oficial PostGres](https://hub.docker.com/_/postgres)
 * [PGAdmin - IDE para gerenciamento de dados do Postgres](https://www.pgadmin.org/)
+* [Documentação do Class Validator - NESTJS](https://docs.nestjs.com/techniques/validation)
 
